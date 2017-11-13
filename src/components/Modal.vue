@@ -4,7 +4,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div v-if="this.$slots.header || closeAction" class="modal-header">
-            <button class="close" @click="closeAction">x</button>
+            <button class="close" @click="closeAction">&times;</button>
             <slot name="header"></slot>
           </div>
           <div v-if="this.$slots.body" class="modal-body">
